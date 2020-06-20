@@ -1,6 +1,5 @@
         /*Fuentes*/
-        
-        @font-face {
+        /* @font-face {
             font-family: 'DancingScript-Regular';
             src: url('../fuentes/DancingScript/DancingScript-Regular.ttf');
         }
@@ -23,7 +22,7 @@
         @font-face {
             font-family: 'OpenSans-Regular';
             src: url('../fuentes/OpenSans/OpenSans-Regular.ttf');
-        }
+        }*/
         
         html {
             box-sizing: border-box;
@@ -43,7 +42,8 @@
             font-size: 1.6rem;
             line-height: 2;
             margin: 0;
-            font-family: 'OpenSans-Regular';
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
             scroll-behavior: smooth;
         }
         /** Globales **/
@@ -59,6 +59,7 @@
         h3,
         h4 {
             font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
             margin: 0;
         }
         
@@ -117,7 +118,8 @@
         }
         
         .opsb {
-            font-family: 'OpenSans-Bold';
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
             font-size: 2.5rem;
         }
         
@@ -149,8 +151,14 @@
             margin: 0 auto;
         }
         
+        .dsregular {
+            font-family: 'Dancing Script', cursive;
+            font-weight: 400;
+        }
+        
         .dsb4 {
-            font-family: 'DancingScript-Bold';
+            font-family: 'Dancing Script', cursive;
+            font-weight: 700;
             font-size: 4rem;
         }
         
@@ -234,7 +242,8 @@
         .titulo {
             font-size: 8rem;
             color: black;
-            font-family: 'DancingScript-Regular';
+            font-family: 'Dancing Script', cursive;
+            font-weight: 400;
             transition: color .3s ease-in-out;
         }
         
@@ -292,7 +301,8 @@
         
         .subtitulo {
             color: white;
-            font-family: 'DancingScript-Bold';
+            font-family: 'Dancing Script', cursive;
+            font-weight: 700;
         }
         
         .navegacion a {
@@ -302,7 +312,8 @@
             margin: 0rem 0rem 0rem 2rem;
             font-size: 1.8rem;
             text-align: center;
-            font-family: 'OpenSans-Bold';
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
             margin: 0;
             cursor: pointer;
         }
@@ -359,7 +370,8 @@
         .titulo-articulo {
             font-size: 4rem;
             text-align: center;
-            font-family: 'DancingScript-Bold';
+            font-family: 'Dancing Script', cursive;
+            font-weight: 700;
         }
         /*Btn leer más*/
         
@@ -367,7 +379,8 @@
             padding: .7rem 3rem;
             background: black;
             color: white;
-            font-family: 'OpenSans-Bold';
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
             text-transform: uppercase;
             display: block;
             text-align: center;
@@ -408,7 +421,8 @@
                 padding: .7rem 3rem;
                 background: black;
                 color: white;
-                font-family: 'OpenSans-Bold';
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 700;
                 text-transform: uppercase;
             }
         }
@@ -451,7 +465,8 @@
         }
         
         .p3 {
-            font-family: 'OpenSans-Regular';
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
             font-size: 1.7rem;
             opacity: 1;
             color: black;
@@ -460,7 +475,8 @@
         
         @media (min-width: 600px) {
             .p3 {
-                font-family: 'OpenSans-Regular';
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 400;
                 font-size: 2rem;
             }
         }
