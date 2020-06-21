@@ -241,7 +241,7 @@
         
         .titulo {
             font-size: 8rem;
-            color: black;
+            color: white;
             font-family: 'Dancing Script', cursive;
             font-weight: 400;
             transition: color .3s ease-in-out;
@@ -296,7 +296,7 @@
         }
         
         .imagen-header a .titulo:hover {
-            color: white;
+            color: black;
         }
         
         .subtitulo {
