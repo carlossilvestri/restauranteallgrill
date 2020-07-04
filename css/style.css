@@ -1,4 +1,4 @@
-        /*Fuentes*/
+               /*Fuentes*/
         /* @font-face {
             font-family: 'DancingScript-Regular';
             src: url('../fuentes/DancingScript/DancingScript-Regular.ttf');
@@ -220,15 +220,6 @@
                 display: block;
             }
         }
-        /* .navegacion:target {
-            display: block;
-        }*/
-        
-        @media (min-width: 768px) {
-            .navegacion {
-                display: block;
-            }
-        }
         /*1.2.- Barra */
         
         .barra {
@@ -315,7 +306,7 @@
         }
         
         .navegacion {
-            display: block;
+            /* display: block;*/
         }
         
         .navegacion a {
